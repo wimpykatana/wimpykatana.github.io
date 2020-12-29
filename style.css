@@ -5,6 +5,9 @@ html{
   
   body{
     position: relative;
+    color: white;
+    
+    font-weight: 200;
   }
   
   html,body{
@@ -14,6 +17,14 @@ html{
       vertical-align: baseline;
   }
   
+  h2{
+    margin-bottom: 0;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+  }
+  p{
+    margin-top:  0;
+  }
   /* Centering stuff */
   .wrapper{
     z-index: 1;
